@@ -33,12 +33,5 @@ locals {
       value = "v=spf1 include:_spf.google.com ~all"
       ttl   = 3600
     }
-    "blog" = {
-      type  = "CNAME"
-      value = "blogicestation.wordpress.com."
-    }
-
   }
-
-
 }
